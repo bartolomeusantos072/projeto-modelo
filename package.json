@@ -1,0 +1,19 @@
+{
+  "name": "projeto-modelo",
+  "version": "1.0.0",
+  "description": "passo a passo pra fazer um projeto full stack mais rápido.",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotenv -e .env.test prisma migrate dev && prisma db seed &&  cross-env NODE_OPTIONS=--experimental-vm-modules  dotenv -e .env.test jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uenderss/projeto-modelo.git"
+  },
+  "author": "bartolomeu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uenderss/projeto-modelo/issues"
+  },
+  "homepage": "https://github.com/Uenderss/projeto-modelo#readme"
+}
