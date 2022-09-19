@@ -2,6 +2,7 @@
   "name": "projeto-modelo",
   "version": "1.0.0",
   "description": "passo a passo pra fazer um projeto full stack mais rápido.",
+  "type":"commonjs",
   "scripts": {
     "build": "tsc",
     "start": "node src/server.ts",
